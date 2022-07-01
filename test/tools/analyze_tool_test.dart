@@ -47,7 +47,7 @@ void main() {
               argResults: argResults,
               configuredAnalyzerArgs: ['a', 'b'],
               useDartAnalyze: true),
-          orderedEquals(['analyze', 'a', 'b', 'c', 'd']));
+          orderedEquals(['analyze', 'a', 'b', 'd', 'c']));
     });
 
     test('inserts a verbose flag if not already present', () {
